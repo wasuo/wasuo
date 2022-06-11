@@ -1,0 +1,60 @@
+if game.PlaceId == 2788229376 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("speedybari", "Sentinel")
+    -- info
+    local Tab = Window:NewTab("info")
+    local infoSection = Tab:NewSection("info")
+    infoSection:NewLabel("made by speedybari#8740")
+    infoSection:NewLabel("join the sever ↓")
+    infoSection:NewLabel("https://discord.gg/QDkWh89vFF")
+    -- first main script 
+    local Tab = Window:NewTab("main")
+    local MainSection = Tab:NewSection("Scripts")
+    MainSection:NewTextBox("sono lock", "type anything in the box it will still work", function(txt)
+        print(loadstring(game:HttpGet("https://raw.githubusercontent.com/bobobexz/sono-wow/main/README.md"))())
+    end)
+    MainSection:NewTextBox("da mimic", "type anything in the box it will still work", function(txt)
+        print(loadstring(game:HttpGet("https://raw.githubusercontent.com/ZSIOffical/I-D-K/main/mimic.lua"))())
+    end)
+    MainSection:NewTextBox("race codex", "type anything in the box it will still work", function(txt)
+        print(loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)())
+    end)
+    MainSection:NewTextBox("best lock", "type anything in the box it will still work", function(txt)
+        print(loadstring(game:HttpGet(("https://raw.githubusercontent.com/Kphta/christmas-2/main/2.0"),true))())
+    end)
+    MainSection:NewTextBox("vortex", "type anything in the box it will still work", function(txt)
+        print(loadstring(game:HttpGet("https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex", true))())
+    end)
+    MainSection:NewTextBox("Doomware", "type anything in the box it will still work", function(txt)
+        print(loadstring(game:HttpGet("https://raw.githubusercontent.com/buqs9999/Doomware/main/Aimlock"))())
+    end)
+    MainSection:NewTextBox("carl hub", "type anything in the box it will still work", function(txt)
+        print(loadstring(game:HttpGet('https://raw.githubusercontent.com/carlcoded/carlispro/main/carlhub'))())
+    end)
+    MainSection:NewTextBox(" da hood aimlock zap", "type anything in the box it will still work", function(txt)
+        print(loadstring(game:HttpGet('https://ekso.gq/raw/scripts/zap.lua'))())
+    end)
+    local Tab = Window:NewTab("key")
+    local keySection = Tab:NewSection("keybind")
+    keySection:NewKeybind("set keybind", "nothing", Enum.KeyCode.F, function()
+        Library:ToggleUI()
+    end)
+    
+    
+
+    
+
+
+
+  
+
+
+
+
+    
+
+
+
+
+
+end
